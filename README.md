@@ -1,5 +1,4 @@
 # ObjectPool-cocos2d-x
-ObjectPool of cocos2d-x
 
 **面向cocos2dx的对象池**
 
