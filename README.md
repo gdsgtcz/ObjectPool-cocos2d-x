@@ -12,3 +12,18 @@
 
 5.可以对其扩展，继承于ObjectPool的其他cocos2d-x类型的对象池，SpritePool只是抛砖引玉。
 
+
+**使用**
+
+我的开发环境是cocos2d-x + lua，在lua中使用对象池，需要进行绑定和注册。
+以我的项目为例：
+
+1,把ObjectPool和lua-bindings路径下的文件加入项目中。
+
+2,入口文件处注册。
+
+ ```
+ register_all_cocos2dx_spritepool(L);
+ ```
+3,lua中使用。
+
